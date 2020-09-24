@@ -1,27 +1,36 @@
 # AprendiendoAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+<h2>Primeros pasos</h2>
 
-## Development server
+<h4>Actualizar Node.js</h4>
+Desde su página oficial se descargó la última versión de node.js
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<h4>Actualizar npm de node(Gestor de paquete)</h4>
+Desde la terminal se aplico el siguiente comando
+<ul>
+  <li>npm install -g npm@latest (De esta forma global se actualizo todos los paquetes de node.js)</li>
+  <li>npm cache clean --force (De esta forma se limpia el cache de nuestro node, para evitar que utilice paquetes que esten guardados en cache.)</li>
+  <li>npm set audit false (De esta forma desactivamos las auditoria de node sobre los paquetes que queramos instalar con Angular.)</li>
+  <li>npm install -g @angular/cli@lastest (Instalamos la ultima versión de angular cli)</li>
+</ul>
 
-## Code scaffolding
+<h4>Creando proyecto con Angular</h4>
+Por consola nos dirigimos a la carpeta de nuestro proyecto y usamos el siguiente comando.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<ul>
+  <li>ng new (Este comando crea un nuevo proyecto de Angular)</li>
+  <li>Nos pedirá un nombre de carpeta que en este caso lo llamamos 'AprendiendoAngular'</li>
+  <li>Nos preguntara si queremos configurar el routing de angular y le decimos que N (Por lo genera eso da fallo y lo haremos de forma manual que así lo podemos controlar mejor)</li>
+  <li>Nos preguntara si queremos utilizar un procesador de css, sass, less o etc. Y seleccionamos la hoja de estilo que queramos.</li>
+</ul>
 
-## Build
+Angular así comienza a crear un proyecto de angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<br>
 
-## Running unit tests
+<h2>Verificar el correcto funcionamiento de nuestro proyecto</h2>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Para eso ejecutamos dentro de la carpeta que creamos de nuestro proyecto el siguiente comando
 
-## Running end-to-end tests
+ng serve (similar que el npm start y sirve para arrancar el westpac para que nos compile y nos transcriba todos los ficheros de typescripts y los unifique todos. Además nos lanzara un like server que nos va a permitir que nuestro proyecto de angula este en un pequeño servidor web local) 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
