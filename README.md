@@ -38,3 +38,4 @@ ng serve (similar que el npm start y sirve para arrancar el westpac para que nos
 
 <h2>Crear un nuevo componente desde consola</h2>
 ng g component components/(Nombre del componente que queremos crear).
+Nos crea los componente, html y hasta css por si lo queremos usar, ademas nos actualiza el componente en app.module.ts para que lo podamos usar.
