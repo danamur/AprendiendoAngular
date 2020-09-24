@@ -34,3 +34,7 @@ Para eso ejecutamos dentro de la carpeta que creamos de nuestro proyecto el sigu
 
 ng serve (similar que el npm start y sirve para arrancar el westpac para que nos compile y nos transcriba todos los ficheros de typescripts y los unifique todos. Además nos lanzara un like server que nos va a permitir que nuestro proyecto de angula este en un pequeño servidor web local) 
 
+<br>
+
+<h2>Crear un nuevo componente desde consola</h2>
+ng g component components/(Nombre del componente que queremos crear).
